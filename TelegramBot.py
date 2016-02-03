@@ -69,7 +69,7 @@ def run ():
                 last_update = update['update_id']
                 if 'message' in update:
                     chat_id = update['message']['chat']['id']
-                    text = update['message']['text']
+            #    text = update['message']['text']
                     command = commands(text)
                     if(command):
                         getUpdates(last_update+1)
