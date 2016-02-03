@@ -8,7 +8,7 @@ from time import sleep
 
 # Here, insert the token Bot Father gave you for your bot.
 # https://telegram.me/botfather
-token_api = 'your token here'
+token_api = '189275247:AAHUmZs86BOGzhBJTp7EWNFqXuNIybeLEMM'
 url = 'https://api.telegram.org/bot%s/' % token_api
 
 """
